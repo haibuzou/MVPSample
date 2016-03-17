@@ -8,7 +8,7 @@ import java.util.ArrayList;
 public class RequestBiziml implements RequestBiz{
 
     @Override
-    public void requestForDate(final OnRequestListener listener) {
+    public void requestForData(final OnRequestListener listener) {
 
         new Thread(new Runnable() {
             @Override

@@ -9,7 +9,6 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.ProgressBar;
-import android.widget.TextView;
 import android.widget.Toast;
 
 import java.util.List;
@@ -25,14 +24,12 @@ public class MVCActivity extends AppCompatActivity{
     private RequestBiz requestBiz;
     private ProgressBar pb;
     private Handler handler;
-    private TextView titleTxt;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_mvc);
         mvcListView = (ListView)findViewById(R.id.mvc_listview);
-        titleTxt = (TextView)findViewById(R.id.mvc_title);
         pb = (ProgressBar) findViewById(R.id.mvc_loading);
         pb.setVisibility(View.VISIBLE);
         handler = new Handler(Looper.getMainLooper());
@@ -41,7 +38,7 @@ public class MVCActivity extends AppCompatActivity{
     }
 
     public void requestForData(){
-        requestBiz.requestForDate(new OnRequestListener() {
+        requestBiz.requestForData(new OnRequestListener() {
             @Override
             public void onSuccess(final List<String> data) {
                 handler.post(new Runnable() {
