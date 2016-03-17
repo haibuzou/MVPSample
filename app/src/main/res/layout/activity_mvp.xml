@@ -9,10 +9,15 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="haibuzou.mvpsample.mvp.MVPActivity">
 
-    <android.support.v4.widget.ContentLoadingProgressBar
+    <ProgressBar
         android:id="@+id/loading"
         android:layout_width="50dp"
         android:layout_centerInParent="true"
         android:layout_height="50dp" />
+
+    <ListView
+        android:id="@+id/mvp_listview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
 
 </RelativeLayout>

@@ -9,10 +9,24 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="haibuzou.mvpsample.mvc.MVCActivity">
 
-    <android.support.v4.widget.ContentLoadingProgressBar
-        android:id="@+id/loading"
+    <TextView
+        android:id="@+id/mvc_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/mvc_title"
+        android:textSize="16sp" />
+
+    <ProgressBar
+        android:id="@+id/mvc_loading"
         android:layout_width="50dp"
-        android:layout_centerInParent="true"
-        android:layout_height="50dp" />
+        android:layout_height="50dp"
+        android:layout_centerInParent="true" />
+
+    <ListView
+        android:id="@+id/mvc_listview"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mvc_title" />
 
 </RelativeLayout>

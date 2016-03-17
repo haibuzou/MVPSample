@@ -1,7 +1,19 @@
 package haibuzou.mvpsample.mvp.presenter;
 
-/**
- * Created by Dante on 2016/3/16.
- */
+
+import haibuzou.mvpsample.mvp.view.MvpView;
+
 public class MvpPresenter {
+
+    private MvpView mvpView;
+
+    public MvpPresenter(MvpView mvpView) {
+        this.mvpView = mvpView;
+    }
+
+    public void onResume(){
+        mvpView.showLoading();
+    }
+
+
 }

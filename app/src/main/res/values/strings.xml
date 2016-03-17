@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">MVPSample</string>
+    <string name="mvc_title">MVC 架构</string>
+    <string name="mvp_title">MVP 架构</string>
 </resources>
