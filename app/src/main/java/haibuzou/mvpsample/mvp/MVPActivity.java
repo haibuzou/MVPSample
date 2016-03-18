@@ -26,6 +26,7 @@ public class MVPActivity extends AppCompatActivity implements MvpView ,AdapterVi
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_mvp);
         mvpListView = (ListView)findViewById(R.id.mvp_listview);
+        mvpListView.setOnItemClickListener(this);
         pb = (ProgressBar) findViewById(R.id.mvp_loading);
         mvpPresenter = new MvpPresenter(this);
     }
