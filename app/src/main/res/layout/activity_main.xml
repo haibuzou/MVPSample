@@ -26,4 +26,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 
+    <Button
+        android:id="@+id/new_mvp_btn"
+        android:text="NEW_MVP"
+        android:onClick="toNewMvp"
+        android:layout_below="@id/mvp_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
 </RelativeLayout>

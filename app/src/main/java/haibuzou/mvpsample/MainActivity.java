@@ -7,6 +7,7 @@ import android.view.View;
 
 import haibuzou.mvpsample.mvc.MVCActivity;
 import haibuzou.mvpsample.mvp.MVPActivity;
+import haibuzou.mvpsample.mvp.NewMvpActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -24,5 +25,9 @@ public class MainActivity extends AppCompatActivity {
 
     public void toMvp(View view){
         startActivity(new Intent(MainActivity.this, MVPActivity.class));
+    }
+
+    public void toNewMvp(View view){
+        startActivity(new Intent(MainActivity.this, NewMvpActivity.class));
     }
 }

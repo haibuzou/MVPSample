@@ -58,6 +58,12 @@ public class MVPActivity extends AppCompatActivity implements MvpView ,AdapterVi
         mvpListView.setAdapter(adapter);
     }
 
+    //退出时销毁持有Activity
+    @Override
+    protected void onDestroy() {
+        mvpPresenter.onDestroy();
+        super.onDestroy();
+    }
 
     @Override
     public void showMessage(String message) {
