@@ -45,6 +45,10 @@ public class MvpPresenter {
         });
     }
 
+    public void onDestroy(){
+        mvpView = null;
+    }
+
     public void onItemClick(int position){
         mvpView.showMessage("点击了item"+position);
     }
