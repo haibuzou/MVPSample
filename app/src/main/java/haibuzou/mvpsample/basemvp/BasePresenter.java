@@ -2,7 +2,7 @@ package haibuzou.mvpsample.basemvp;
 
 
 public abstract class BasePresenter<T> {
-    T mView;
+    public T mView;
 
     public void attach(T mView){
         this.mView = mView;

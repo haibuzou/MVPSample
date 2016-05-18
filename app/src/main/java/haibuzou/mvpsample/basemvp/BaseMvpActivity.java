@@ -3,11 +3,9 @@ package haibuzou.mvpsample.basemvp;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 
-import haibuzou.mvpsample.basemvp.BasePresenter;
-
 public abstract class BaseMvpActivity<V,T extends BasePresenter<V>> extends AppCompatActivity {
 
-    T presenter;
+    public T presenter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

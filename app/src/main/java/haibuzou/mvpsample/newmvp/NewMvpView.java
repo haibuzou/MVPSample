@@ -1,4 +1,4 @@
-package haibuzou.mvpsample.basemvp;
+package haibuzou.mvpsample.newmvp;
 
 import java.util.List;
 
