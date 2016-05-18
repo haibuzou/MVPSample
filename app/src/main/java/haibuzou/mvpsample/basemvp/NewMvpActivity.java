@@ -1,4 +1,4 @@
-package haibuzou.mvpsample.mvp;
+package haibuzou.mvpsample.basemvp;
 
 import android.os.Bundle;
 import android.view.View;
@@ -11,8 +11,6 @@ import android.widget.Toast;
 import java.util.List;
 
 import haibuzou.mvpsample.R;
-import haibuzou.mvpsample.mvp.presenter.NewMvpPresenter;
-import haibuzou.mvpsample.mvp.view.NewMvpView;
 
 
 public class NewMvpActivity extends BaseMvpActivity<NewMvpView,NewMvpPresenter> implements NewMvpView,AdapterView.OnItemClickListener{

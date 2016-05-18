@@ -1,4 +1,4 @@
-package haibuzou.mvpsample.mvp.presenter;
+package haibuzou.mvpsample.basemvp;
 
 
 import android.os.Handler;
@@ -6,10 +6,11 @@ import android.os.Looper;
 
 import java.util.List;
 
+import haibuzou.mvpsample.basemvp.BasePresenter;
 import haibuzou.mvpsample.biz.OnRequestListener;
 import haibuzou.mvpsample.biz.RequestBiz;
 import haibuzou.mvpsample.biz.RequestBiziml;
-import haibuzou.mvpsample.mvp.view.NewMvpView;
+import haibuzou.mvpsample.basemvp.NewMvpView;
 
 public class NewMvpPresenter extends BasePresenter<NewMvpView> {
 

@@ -7,7 +7,7 @@ import android.view.View;
 
 import haibuzou.mvpsample.mvc.MVCActivity;
 import haibuzou.mvpsample.mvp.MVPActivity;
-import haibuzou.mvpsample.mvp.NewMvpActivity;
+import haibuzou.mvpsample.basemvp.NewMvpActivity;
 
 public class MainActivity extends AppCompatActivity {
 

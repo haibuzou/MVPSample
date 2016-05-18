@@ -1,9 +1,9 @@
-package haibuzou.mvpsample.mvp;
+package haibuzou.mvpsample.basemvp;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 
-import haibuzou.mvpsample.mvp.presenter.BasePresenter;
+import haibuzou.mvpsample.basemvp.BasePresenter;
 
 public abstract class BaseMvpActivity<V,T extends BasePresenter<V>> extends AppCompatActivity {
 

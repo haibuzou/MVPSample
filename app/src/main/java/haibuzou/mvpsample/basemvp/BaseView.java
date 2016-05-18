@@ -1,4 +1,4 @@
-package haibuzou.mvpsample.mvp.view;
+package haibuzou.mvpsample.basemvp;
 
 
 public interface BaseView {

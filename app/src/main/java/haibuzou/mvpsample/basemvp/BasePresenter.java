@@ -1,4 +1,4 @@
-package haibuzou.mvpsample.mvp.presenter;
+package haibuzou.mvpsample.basemvp;
 
 
 public abstract class BasePresenter<T> {
