@@ -14,7 +14,7 @@ import haibuzou.mvpsample.mvp.view.MvpView;
 public class MvpPresenter {
 
     private MvpView mvpView;
-    RequestBiz requestBiz;
+    private RequestBiz requestBiz;
     private Handler mHandler;
 
     public MvpPresenter(MvpView mvpView) {
