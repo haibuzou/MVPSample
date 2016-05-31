@@ -17,9 +17,9 @@ import haibuzou.mvpsample.mvp.view.MvpView;
 
 public class MVPActivity extends AppCompatActivity implements MvpView ,AdapterView.OnItemClickListener{
 
-    ListView mvpListView;
-    MvpPresenter mvpPresenter;
-    ProgressBar pb;
+    private ListView mvpListView;
+    private MvpPresenter mvpPresenter;
+    private ProgressBar pb;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
