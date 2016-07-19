@@ -16,7 +16,7 @@
 ##MVP架构
 - M : 还是业务层和模型层
 - V  : 视图层的责任由Activity来担当
-- P : 新成员Prensenter 用来代理 C(control) 控制层
+- P : 新成员Presenter 用来代理 C(control) 控制层
 
 ##MVP通用类
 新增了MVP通用类，更少的代码，更好使用
